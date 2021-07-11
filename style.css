@@ -1,0 +1,49 @@
+h1 {
+    margin: 50px 0px;
+    text-align: center;
+    font-size: 40px;
+    color: coral;
+
+}
+
+.calendar-center {
+    display: flex;
+    justify-content: center;
+
+}
+
+.calender {
+    width: 550px;
+    height: 550px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 10px;
+    grid-template-rows: 0.5fr repeat(5, 1fr);
+}
+
+.calender .date {
+
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: black;
+    font-weight: 700;
+}
+
+.calender .other-month {
+    background-color: lightsteelblue;
+}
+
+.calender .day {
+    background-color: lightslategray;
+    color: mintcream;
+    border-radius: 10px;
+    font-size: 2em;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
